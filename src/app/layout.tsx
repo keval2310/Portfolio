@@ -1,0 +1,59 @@
+import type { Metadata } from "next";
+import { Press_Start_2P } from "next/font/google";
+import "./globals.css";
+import Navigation from "@/components/Navigation";
+import { GlobalPixelBackground } from "@/components/effects";
+
+const pressStart2P = Press_Start_2P({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-press-start",
+});
+
+export const metadata: Metadata = {
+  title: "Keval Dhandhukiya - 8-Bit Portfolio",
+  description: "Retro-style portfolio showcasing my development skills in a gamified experience",
+  keywords: ["Full Stack Developer", "React", "Next.js", "Node.js", "Portfolio", "8-bit", "Retro"],
+  authors: [{ name: "Keval Dhandhukiya" }],
+  creator: "Keval Dhandhukiya",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://keval.dev",
+    title: "Keval Dhandhukiya - 8-Bit Portfolio",
+    description: "Retro-style portfolio showcasing my development skills in a gamified experience",
+    siteName: "Keval Dhandhukiya Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Keval Dhandhukiya - 8-Bit Portfolio",
+    description: "Retro-style portfolio showcasing my development skills in a gamified experience",
+    creator: "@kevaldhandhukiya",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${pressStart2P.variable} font-mono`}>
+        {/* Global Retro 8-bit Background */}
+        <GlobalPixelBackground />
+        
+        {/* <GameProvider> */}
+          <Navigation />
+          <main className="min-h-screen relative z-10">
+            {children}
+          </main>
+        {/* </GameProvider> */}
+      </body>
+    </html>
+  );
+}
