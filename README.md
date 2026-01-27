@@ -156,10 +156,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Raumil Dhandhukia - [your.email@example.com](mailto:your.email@example.com)
+Keval Dhandhukiya - [kevaldhandhukiya2310@gmail.com](mailto:kevaldhandhukiya2310@gmail.com)
 
-Project Link: [https://github.com/yourusername/portfolio2](https://github.com/yourusername/portfolio2)
+Project Link: [https://github.com/keval2310/Portfolio](https://github.com/keval2310/Portfolio)
 
 ---
 
-Built with ❤️ and lots of ☕ by [Raumil Dhandhukia](https://github.com/yourusername)
+Built with ❤️ and lots of ☕ by [Keval Dhandhukiya](https://github.com/keval2310)
