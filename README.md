@@ -71,29 +71,7 @@ A retro-style portfolio website built with Next.js and NES.css, featuring a gami
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎨 Customization
 
-### Personal Information
-
-Update the following files with your information:
-
-- `src/components/sections/IntroSection.tsx` - Name and introduction
-- `src/components/sections/ExperienceSection.tsx` - Work experience
-- `src/components/sections/ProjectsSection.tsx` - Your projects
-- `src/components/sections/TechnologiesSection.tsx` - Your skills
-- `src/components/sections/ContactSection.tsx` - Contact information
-
-### Styling
-
-- `src/app/globals.css` - Global styles and theme colors
-- CSS custom properties for easy color customization
-- Responsive breakpoints using Tailwind CSS
-
-### Gamification
-
-- `src/components/GameProvider.tsx` - Achievement system
-- `src/components/Navigation.tsx` - Score tracking
-- Customize achievements, points, and levels
 
 ## 📁 Project Structure
 
