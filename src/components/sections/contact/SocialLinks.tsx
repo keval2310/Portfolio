@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/Keval Dhandhukiya',
+    url: 'https://linkedin.com/in/keval-dhandhukiya-b46a95302',
     icon: FaLinkedin,
     color: 'text-blue-400 hover:text-blue-300',
     description: 'Let\'s connect professionally'

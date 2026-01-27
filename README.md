@@ -54,20 +54,20 @@ A retro-style portfolio website built with Next.js and NES.css, featuring a gami
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd portfolio2
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Run the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -77,27 +77,27 @@ A retro-style portfolio website built with Next.js and NES.css, featuring a gami
 
 Update the following files with your information:
 
-- \`src/components/sections/IntroSection.tsx\` - Name and introduction
-- \`src/components/sections/ExperienceSection.tsx\` - Work experience
-- \`src/components/sections/ProjectsSection.tsx\` - Your projects
-- \`src/components/sections/TechnologiesSection.tsx\` - Your skills
-- \`src/components/sections/ContactSection.tsx\` - Contact information
+- `src/components/sections/IntroSection.tsx` - Name and introduction
+- `src/components/sections/ExperienceSection.tsx` - Work experience
+- `src/components/sections/ProjectsSection.tsx` - Your projects
+- `src/components/sections/TechnologiesSection.tsx` - Your skills
+- `src/components/sections/ContactSection.tsx` - Contact information
 
 ### Styling
 
-- \`src/app/globals.css\` - Global styles and theme colors
+- `src/app/globals.css` - Global styles and theme colors
 - CSS custom properties for easy color customization
 - Responsive breakpoints using Tailwind CSS
 
 ### Gamification
 
-- \`src/components/GameProvider.tsx\` - Achievement system
-- \`src/components/Navigation.tsx\` - Score tracking
+- `src/components/GameProvider.tsx` - Achievement system
+- `src/components/Navigation.tsx` - Score tracking
 - Customize achievements, points, and levels
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 src/
 ├── app/
 │ ├── layout.tsx # Root layout with navigation
@@ -112,7 +112,7 @@ src/
 │ ├── ProjectsSection.tsx
 │ ├── TechnologiesSection.tsx
 │ └── ContactSection.tsx
-\`\`\`
+```
 
 ## 🌐 Deployment
 
@@ -123,10 +123,10 @@ src/
 
 ### Other Platforms
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 🎯 Performance
 
@@ -134,14 +134,6 @@ npm start
 - **Core Web Vitals**: Optimized for speed
 - **SEO**: Complete meta tags and structured data
 - **Accessibility**: WCAG compliant
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: \`git checkout -b feature/amazing-feature\`
-3. Commit changes: \`git commit -m 'Add amazing feature'\`
-4. Push to branch: \`git push origin feature/amazing-feature\`
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -156,7 +148,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Keval Dhandhukiya - [kevaldhandhukiya2310@gmail.com](mailto:kevaldhandhukiya2310@gmail.com)
+Kevel Dhandhukiya - [kevaldhandhukiya2310@gmail.com](mailto:kevaldhandhukiya2310@gmail.com)
 
 Project Link: [https://github.com/keval2310/Portfolio](https://github.com/keval2310/Portfolio)
 

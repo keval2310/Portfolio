@@ -108,8 +108,8 @@ export const experiences: Experience[] = [
 ];
 
 export const experienceStats: Stat[] = [
-  { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "50+" },
+  { label: "Years Experience", value: "3+" },
+  { label: "Projects Completed", value: "5+" },
   { label: "Technologies Mastered", value: "20+" },
   { label: "Coffee Consumed", value: "∞" },
 ];
