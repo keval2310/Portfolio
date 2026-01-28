@@ -125,6 +125,8 @@ npm start
 
 Kevel Dhandhukiya - [kevaldhandhukiya2310@gmail.com](mailto:kevaldhandhukiya2310@gmail.com)
 
+LinkedIn: [https://linkedin.com/in/keval-dhandhukiya-b46a95302](https://linkedin.com/in/keval-dhandhukiya-b46a95302)
+
 Project Link: [https://github.com/keval2310/Portfolio](https://github.com/keval2310/Portfolio)
 
 ---
