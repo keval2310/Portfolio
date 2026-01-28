@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: FaEnvelope,
     label: 'Email',
-    value: 'keval@example.com',
+    value: 'kevaldhandhukiya2310@gmail.com',
     color: 'text-green-400'
   },
   {
