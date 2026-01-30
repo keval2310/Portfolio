@@ -183,14 +183,7 @@ export const technologies: Technology[] = [
     description: "Code editor",
     experience: "5+ years",
   },
-  {
-    name: "Figma",
-    level: 75,
-    category: "tools",
-    icon: "🎨",
-    description: "Design collaboration",
-    experience: "2+ years",
-  },
+
   {
     name: "Linux",
     level: 85,
