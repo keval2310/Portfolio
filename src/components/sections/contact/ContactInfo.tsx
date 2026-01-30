@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: FaPhone,
     label: 'Phone',
-    value: '+91 98765 43210',
+    value: '+91 11223 34455',
     color: 'text-blue-400'
   },
   {
