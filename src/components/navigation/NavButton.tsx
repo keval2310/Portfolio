@@ -18,10 +18,6 @@ const buttonStyles = {
     active: 'bg-gradient-to-r from-blue-500 to-cyan-400 text-white border-2 border-cyan-300 shadow-lg shadow-blue-500/30',
     inactive: 'bg-gray-800 text-gray-300 border-2 border-gray-600 hover:bg-gradient-to-r hover:from-blue-500/50 hover:to-cyan-400/50 hover:border-cyan-300/50 hover:text-white hover:shadow-lg hover:shadow-blue-500/15'
   },
-  'experience': {
-    active: 'bg-gradient-to-r from-green-500 to-emerald-400 text-white border-2 border-emerald-300 shadow-lg shadow-green-500/30',
-    inactive: 'bg-gray-800 text-gray-300 border-2 border-gray-600 hover:bg-gradient-to-r hover:from-green-500/50 hover:to-emerald-400/50 hover:border-emerald-300/50 hover:text-white hover:shadow-lg hover:shadow-green-500/15'
-  },
   'projects': {
     active: 'bg-gradient-to-r from-yellow-500 to-orange-400 text-white border-2 border-orange-300 shadow-lg shadow-yellow-500/30',
     inactive: 'bg-gray-800 text-gray-300 border-2 border-gray-600 hover:bg-gradient-to-r hover:from-yellow-500/50 hover:to-orange-400/50 hover:border-orange-300/50 hover:text-white hover:shadow-lg hover:shadow-yellow-500/15'
