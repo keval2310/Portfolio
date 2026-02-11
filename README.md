@@ -31,9 +31,10 @@ A retro-style portfolio website built with Next.js and NES.css, featuring a gami
 ## 📋 Sections
 
 1. **🏠 Intro**: Welcome section with animated character and typewriter effect
-2. **🚀 Projects**: Filterable project showcase with live demos
-3. **⚙️ Technologies**: Categorized skill breakdown with proficiency levels
-4. **📧 Contact**: Interactive contact form with social links
+2. **💼 Experience**: Interactive timeline of professional experience
+3. **🚀 Projects**: Filterable project showcase with live demos
+4. **⚙️ Technologies**: Categorized skill breakdown with proficiency levels
+5. **📧 Contact**: Interactive contact form with social links
 
 ## 🎮 Gamification Features
 
@@ -85,6 +86,7 @@ src/
 │ ├── GameProvider.tsx # Game state management
 │ └── sections/ # Page sections
 │ ├── IntroSection.tsx
+│ ├── ExperienceSection.tsx
 │ ├── ProjectsSection.tsx
 │ ├── TechnologiesSection.tsx
 │ └── ContactSection.tsx

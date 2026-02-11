@@ -14,6 +14,7 @@ const Navigation = () => {
 
   const navItems = useMemo(() => [
     { id: 'intro', label: 'INTRO', icon: FaGamepad },
+    { id: 'experience', label: 'EXPERIENCE', icon: FaBriefcase },
     { id: 'projects', label: 'PROJECTS', icon: FaCode },
     { id: 'technologies', label: 'TECH STACK', icon: FaCog },
     { id: 'contact', label: 'CONTACT', icon: FaEnvelope },
