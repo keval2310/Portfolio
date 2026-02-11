@@ -4,16 +4,16 @@ export const experiences: Experience[] = [
   {
     id: "exp1",
     title: "Full Stack Web Developer",
-    company: "GNWebSoft",
+    company: "StartupABC",
     location: "Rajkot, Gujarat",
     duration: "2025 - Present",
     description: [
-      "Lead development of scalable web applications using React, Node.js, and AWS",
+      "Lead development of scalable web applications using React and Node.js",
       "Mentor junior developers and conduct code reviews",
       "Architected microservices infrastructure serving 1M+ users",
       "Implemented CI/CD pipelines reducing deployment time by 70%",
     ],
-    skills: ["React", "Node.js", "AWS", "TypeScript", "MongoDB"],
+    skills: ["React", "Node.js", "TypeScript", "MongoDB"],
     achievements: [
       "Increased application performance by 60%",
       "Lead team of 5 developers",
@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "exp2",
-    title: "Full Stack Developer",
+    title: "MERN/MEAN Stack Developer",
     company: "StartupXYZ",
     location: "Austin, TX",
     duration: "2020 - 2022",

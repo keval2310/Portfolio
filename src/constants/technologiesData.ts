@@ -98,6 +98,14 @@ export const technologies: Technology[] = [
     experience: "4+ years",
   },
   {
+    name: "Nest.js",
+    level: 85,
+    category: "backend",
+    icon: "🦅",
+    description: "Progressive Node.js framework",
+    experience: "2+ years",
+  },
+  {
     name: "FastAPI",
     level: 80,
     category: "backend",
@@ -112,6 +120,30 @@ export const technologies: Technology[] = [
     icon: "🌐",
     description: "RESTful architecture",
     experience: "5+ years",
+  },
+  {
+    name: "Java",
+    level: 85,
+    category: "backend",
+    icon: "☕",
+    description: "Object-oriented programming",
+    experience: "3+ years",
+  },
+  {
+    name: "C++",
+    level: 80,
+    category: "backend",
+    icon: "⚙️",
+    description: "System programming",
+    experience: "2+ years",
+  },
+  {
+    name: "C",
+    level: 75,
+    category: "backend",
+    icon: "🔧",
+    description: "Low-level programming",
+    experience: "2+ years",
   },
 
   // Database
@@ -149,14 +181,6 @@ export const technologies: Technology[] = [
   },
 
   // Cloud
-  {
-    name: "AWS",
-    level: 80,
-    category: "cloud",
-    icon: "☁️",
-    description: "Cloud computing platform",
-    experience: "3+ years",
-  },
   {
     name: "Vercel",
     level: 90,

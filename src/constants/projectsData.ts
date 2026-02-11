@@ -104,20 +104,20 @@ export const projects: Project[] = [
   },
   {
     id: "proj6",
-    title: "Social Media Dashboard",
+    title: "Expense Manager",
     description:
-      "Unified dashboard for managing multiple social media accounts with scheduling and analytics.",
+      "A comprehensive expense tracking application for managing personal finances, budgets, and financial goals with detailed analytics.",
     category: "fullstack",
-    technologies: ["Next.js", "Prisma", "NextAuth", "Vercel", "APIs"],
+    technologies: ["React.js", "Node.js", "Express.js", "MySQL", "Chart.js"],
     features: [
-      "Multi-platform integration",
-      "Post scheduling",
-      "Analytics & insights",
-      "Content calendar",
-      "Team collaboration",
+      "Income & expense tracking",
+      "Category-based budgeting",
+      "Visual analytics & reports",
+      "Multi-currency support",
+      "Export data to CSV/PDF",
     ],
-    image: "📱",
-    status: "planned",
+    image: "💰",
+    status: "in-progress",
   },
 
 ];
