@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 interface StatusItem {
   label: string;
@@ -15,16 +15,16 @@ interface StatusDisplayProps {
 }
 
 const defaultStatusItems: StatusItem[] = [
-  { label: 'HP:', value: '999/999', color: 'text-green-400' },
-  { label: 'MP:', value: '∞', color: 'text-blue-400' },
-  { label: 'LVL:', value: 'SENIOR', color: 'text-yellow-400' },
-  { label: 'EXP:', value: '3+ YRS', color: 'text-purple-400' }
+  { label: "HP:", value: "999/999", color: "text-green-400" },
+  { label: "MP:", value: "∞", color: "text-blue-400" },
+  { label: "LVL:", value: "SENIOR", color: "text-yellow-400" },
+  { label: "EXP:", value: "2+ MOS", color: "text-purple-400" },
 ];
 
-const StatusDisplay = ({ 
+const StatusDisplay = ({
   title = "PLAYER STATUS",
   statusItems = defaultStatusItems,
-  className = "w-full max-w-sm"
+  className = "w-full max-w-sm",
 }: StatusDisplayProps) => {
   return (
     <motion.div
